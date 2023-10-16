@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body,
+        h2 {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .forget-form {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .forget-form input[type="email"] {
+            width: 80%;
+            padding: 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+
+        .forget-form input[type="submit"] {
+            width: 80%;
+            background-color: #3A10E5;
+            color: white;
+            padding: 10px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-align: center;
+            font-size: medium;
+        }
+
+        .forget-form input[type="submit"]:hover {
+            background-color: #381ea3;
+        }
+
+        :root {
+            background-color: #FFF0E5;
+        }
+        .login{
+            color: #3A10E5;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form class="forget-form" action="">
+        <h1>Request Password Reset</h1>
+        <label for="email">Please enter your email:</label>
+        <br>
+        <input type="email" id="email" required>
+        <br>
+        <input type="submit" value="Request Password Reset">
+        <p>If you remember your password, <a class="login" href="login.html"><strong>Log in</strong></a></p>
+    </form>
+
+</body>
+
+</html>
